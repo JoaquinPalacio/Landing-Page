@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto';
+}
+
 .inicio {
     background-color: #1F2937;
     color: white;
@@ -14,6 +18,7 @@
 #logo {
     margin: 10px;
     font-size: 24px;
+    font-weight: 600;
     color: #F9FAF8;
     flex: auto;
 }
@@ -24,3 +29,39 @@
     margin: 10px;
 }
 
+.container{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.subconteiner{
+    flex: 1;
+}
+
+#titulo {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#descripcion {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#boton {
+    background-color: #3882F6;
+    width: 80px;
+    padding: 7px;
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    background-color: gray;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
